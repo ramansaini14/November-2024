@@ -1,0 +1,37 @@
+/* External Stylesheet  */
+
+/* div{
+    border: 2px solid black;
+    width: 50%;
+    height: 44px;
+}
+
+span{
+    border: 2px solid black;
+} */
+
+/* div{
+
+} */
+
+.container{
+    border: black solid 2px ;
+    /* border-top: transparent solid 50px;
+    border-bottom: transparent solid 50px;
+    border-left: blue solid 50px; */
+    /* border-right: violet solid 50px ; */
+    /* padding: 20px;
+    margin: 20px; */
+    height: 40px;
+    width: 40px;
+    /* border-radius: 50%; */
+    border-top-right-radius: 20px;
+    /* background: black; */
+    background-color: #dadada;
+
+
+/* 
+    border-color: black;
+    border-style: solid;
+    border-width: 2px; */
+}
