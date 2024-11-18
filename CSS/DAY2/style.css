@@ -1,0 +1,59 @@
+*{
+
+}
+.className{
+
+
+}
+
+#idName{
+
+}
+
+/* Space Combinator deceendent Combinator  */
+/* div div p{
+    border: 2px solid black;
+} */
+
+/* Child Combinator >  */
+/* div > div > p{
+    background-color: red;  */
+    /* border: 2px solid black; */
+ /* } */
+
+ /* Adjcnt Sibling Combinator +  */
+/* div+p{
+    background-color: brown;
+} */
+ /* General Sibling Combinator ~ */
+
+ /* div~p{
+    background-color: brown;
+} */
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: purple;
+}
+a:active{
+    color: brown;
+}
+a:hover{
+    background-color: aqua;
+    text-decoration: wavy underline;
+}
+
+.hey::before{
+    content: "NOTE: - ";
+    color: red;
+}
+.hey::after{
+    content: "Okay this was it";
+    color: blue;
+}
+
+li:nth-child(odd){
+    color: green;
+}
