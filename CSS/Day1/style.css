@@ -1,0 +1,61 @@
+.container{
+    height: 0px;
+    width: 0px;
+    border-top: 50px solid black;
+    border-bottom: 50px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    /* padding: 10px 20px 10px 20px;
+    margin: 20px 10px; */
+    /* Total Height and width  */
+    box-sizing: border-box;
+    /* Actual hEIGHT AND WIDTH  */
+    color: red;
+
+
+}
+/* 
+div{
+
+}
+.className {
+
+}
+#idName{
+
+}
+input[type="text"]{
+    background-color: red;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Decendent Combinator -- a space  */
+
+/* div div p{
+    color: brown;
+} */
+
+/* Child Combinator -- >  */
+
+/* div>div>p{
+    color: blue;
+} */
+
+/* Adjcent Sibling Combinator -- + */
+
+/* div + p{
+    background-color: black;
+    color: white;
+} */
+
+/* General Sibling Combinator -- ~ */
+
+div ~ p{
+    background-color: black;
+    color: white;
+}
