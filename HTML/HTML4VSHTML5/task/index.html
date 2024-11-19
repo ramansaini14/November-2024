@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Calculator</title>
+</head>
+<body>
+    <form action="" oninput="calculatedPf.value = (parseInt(totalIncome.value) * parseInt(pfPer.value))/100;
+    grossSal.value = totalIncome.value - calculatedPf.value" >
+        <input type="text" id="totalIncome">
+        <input type="text" id="pfPer">
+
+        <output name="calculatedPf" for="totalIncome pfPer"></output>
+
+        <output name="grossSal" for="totalIncome calculatedPf"></output>
+    </form>
+</body>
+</html>
