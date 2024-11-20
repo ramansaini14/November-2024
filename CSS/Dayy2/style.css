@@ -1,0 +1,138 @@
+/* a{
+    color: red;
+}
+a:link{
+    text-decoration: overline;
+}
+a:visited{
+    text-decoration: underline;
+}
+a:focus{
+    background-color: yellow;
+}
+a:hover{
+    background-color: red;
+} */
+
+
+/* .hoverable{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+}
+.para{
+    display: none;
+}
+
+.hoverable:hover + p{
+    display: block;
+} */
+
+/* .para::before{
+    content:"Note - ";
+    color: red;
+}
+.para::after{
+    content: "That Was All About It";
+    color: green;
+}
+
+li:nth-child(even){
+    color: green;
+} */
+
+/* p::first-line{
+    color: red;
+    background-color: blanchedalmond;
+} */
+
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 5px;
+}
+.container{
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+}
+
+.box-1{
+    position: static;
+}
+.box-2{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+
+}
+.box-3{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.box-4{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.box-5{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    height: 86px;
+    box-sizing: border-box;
+}
+.headingElement{
+    /* border: 2px solid black; */
+    
+}
+.navigationItemsHolder{
+    /* border: 2px solid black; */
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    justify-content: space-between;
+
+    /* justify-content: center; */
+    /* Justify  */
+    /* align  */
+    
+}
+.navigationItems{
+    /* border: 2px solid black; */
+
+}
+.containerDiv{
+    width: 100%;
+    height: calc(100vh - 86px);
+    border: 2px solid black;
+    background: url('image.png');
+    filter: blur(2px);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+
+}
