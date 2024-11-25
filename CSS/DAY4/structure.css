@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playwrite+CU:wght@100..400&family=Rubik+Wet+Paint&display=swap');
+
+p{
+    /* height: 100px;
+    width: 100px; */
+    border: 80px solid black;
+    /* overflow: auto; */
+    font-size: 80px;
+    /* font-family: "Edu AU VIC WA NT Pre", cursive; */
+    /* letter-spacing: 10px; */
+    /* word-spacing: 20px; */
+    line-height: 300px;
+    text-transform: capitalize;
+    /* text-decoration: underline wavy; */
+    border-image: url("image.png") 100 stretch;
+    
+
+}
+
+div{
+    background: url();
+}
+
