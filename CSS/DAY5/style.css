@@ -1,0 +1,42 @@
+/* p{
+    border: 2px solid black;
+    writing-mode: vertical-rl;
+    height: 200px;
+
+
+} */
+/* .container{
+    border: 2px solid black;
+    display: flex;
+} */
+/* h2{ */
+    /* border: 2px solid black; */
+    
+/* } */
+
+div{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to top right, red 0%, green 30%, blue 80%);
+    /* transform: translate(50px, 50px) rotate(45deg) ; */
+    /* transform: translate(50px, 50px) skew(30deg); */
+    transform: translate(0px, 0px) scale(1);
+    border: 2px solid black;
+    /* transition:  all 0ms cubic- 3s ;  */
+    transition-property: all;
+    transition-duration: 4s;
+    transition-delay: 0ms;
+    transition-timing-function: cubic-bezier(0.73, 0.17, 0.29, 0.75);
+
+    /* transform: ; */
+}
+
+div:hover{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to top right, red 0%, green 30%, blue 80%);
+    /* transform: translate(50px, 50px) rotate(45deg) ; */
+    /* transform: translate(50px, 50px) skew(30deg); */
+    transform: translate(0px, 0px) scale(1);
+    border: 2px solid black;
+}

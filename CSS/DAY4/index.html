@@ -16,12 +16,12 @@
       display: flex;
       /* flex-direction: row;
       flex-wrap: wrap; */
-      flex-flow: row wrap;
-      justify-content: center;
+      /* flex-flow: row wrap;
+      justify-content: center; */
       /* justify-items: center; */
       /* justify-self: center; */
       /* align-self: stretch; */
-      align-items: last baseline;
+      /* align-items: last baseline; */
       /* align-items: last baseline; */
       /* justify-items: center; */
 
@@ -29,26 +29,36 @@
     .container > div{
       width: 100px;
       margin: 5px;
+      height: 100px;
       /* line-height: 80px; */
-      font-size: 30px;
+      /* font-size: 30px; */
       background-color: #dadada;
       border: 2px solid black;
-      text-align: center;
+      text-align: center; 
       
-    }
-    .one{
+    } 
+    .one{ 
       /* align-self: baseline; */
-      height: 70px;
-    
+      /* height: 70px; */
+      position: absolute;    
+      left: 50px;
+      top: 30px;
+      z-index: 0;
+
   }
+  .two{
+    z-index: 1;
+  }
+
+
   </style>
 </head>
 <body>
     <div class="container">
-      <div>1</div>
-      <div class="one">2</div>
-      <div>3</div>
-      <div class="one">4</div>
+      <div class="one">1</div>
+      <div class="two">2</div>
+      <!-- <div>3</div>
+      <div class="one">4</div> -->
       <!-- <div>5</div>
       <div class="one">6</div>
       <div>7</div>
