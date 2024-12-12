@@ -1,0 +1,18 @@
+div {
+  padding: 50px;
+  height: 200px;
+  margin: 10px;
+  background-color: #dafada;
+}
+div h1 {
+  background-color: red;
+}
+div p {
+  height: 100px;
+  background-color: green;
+  font-size: larger;
+}
+
+div:hover {
+  background-color: #dafada;
+}/*# sourceMappingURL=style.css.map */

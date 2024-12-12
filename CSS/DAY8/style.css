@@ -51,11 +51,11 @@
 
 @keyframes myKey {
     from{
-        transform: translateY(-60px);
+        transform: translateX(-60px);
         opacity: 0;
     }
     to{
-        transform: translateY(0px);
+        transform: translateX(0px);
         opacity: 1;
 
     }

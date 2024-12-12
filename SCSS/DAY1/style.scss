@@ -1,0 +1,29 @@
+$b: #dafada;
+$h:100px;
+div{
+    padding: 50px;
+    height:200px;
+    margin: 10px;
+    background-color: $b;
+    h1{
+
+        background-color: red;
+    }
+    p{
+        height: $h;
+        background-color: green;
+        font-size: larger;
+
+    }
+
+}
+div{
+    &:hover{
+        background-color: #dafada;
+    }
+    input{
+        &:hover{}
+        &:focus{}
+    
+    }
+}
