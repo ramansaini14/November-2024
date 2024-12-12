@@ -22,8 +22,14 @@ div{
         background-color: #dafada;
     }
     input{
-        &:hover{}
-        &:focus{}
+        &:hover{
+            background-color: #dafada;
+            
+        }
+        &:focus{
+            background-color: #dafada;
+
+        }
     
     }
 }
