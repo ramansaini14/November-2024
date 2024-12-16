@@ -1,35 +1,73 @@
 $b: #dafada;
-$h:100px;
-div{
-    padding: 50px;
-    height:200px;
-    margin: 10px;
-    background-color: $b;
-    h1{
+// $h: 100px;
 
-        background-color: red;
-    }
-    p{
-        height: $h;
-        background-color: green;
-        font-size: larger;
+// div {
+//     padding: 50px;
+//     height: 200px;
+//     margin: 10px;
+//     background-color: $b;
 
-    }
+//     h1 {
 
+//         background-color: red;
+//     }
+
+//     p {
+//         height: $h;
+//         background-color: green;
+//         font-size: larger;
+
+//     }
+
+// }
+
+// div {
+//     &:hover {
+//         background-color: #dafada;
+//     }
+// }
+// input {
+//     &:hover {
+//         background-color: #dafada;
+
+//     }
+
+//     &:focus {
+//         background-color: #dafada;
+
+//     }
+// }
+@mixin flexmaker($redColor, $blueColor, $width) {
+    color: $redColor;
+    background-color:$blueColor ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $width;
+}
+@mixin flexMaker(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    @include flexmaker(black, blue, 600px);
+    background: red;
 }
 div{
-    &:hover{
-        background-color: #dafada;
+    @include flexMaker();
+    background: #dadada;
+}
+ul{
+    @include flexMaker();
+    @if($b == 'lighten'){
+        height: 300px;
     }
-    input{
-        &:hover{
-            background-color: #dafada;
-            
-        }
-        &:focus{
-            background-color: #dafada;
+    @else{
+        height: 100%;
 
-        }
-    
     }
+    background: lighten(blue, 40%);
+    background: darken(aqua, 40%);
+    justify-content: flex-end;
 }

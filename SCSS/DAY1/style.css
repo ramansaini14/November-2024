@@ -1,18 +1,26 @@
-div {
-  padding: 50px;
-  height: 200px;
-  margin: 10px;
-  background-color: #dafada;
-}
-div h1 {
-  background-color: red;
-}
-div p {
-  height: 100px;
-  background-color: green;
-  font-size: larger;
+p {
+  color: black;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  background: red;
 }
 
-div:hover {
-  background-color: #dafada;
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dadada;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #ccccff;
+  background: #003333;
+  justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */
